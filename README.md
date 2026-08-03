@@ -1,10 +1,31 @@
+> # ⚠️ Archived — succeeded by [ultra-builder-pro-cli](https://github.com/rocky2431/ultra-builder-pro-cli)
+>
+> This repository is **frozen and read-only**. Development continues in
+> **[ultra-builder-pro-cli](https://github.com/rocky2431/ultra-builder-pro-cli)**, which ships the
+> same workflow to five hosts — Claude Code, Codex, OpenCode, Kimi Code and Grok Build — as an
+> installable package rather than a clone into `~/.claude`.
+>
+> ```bash
+> npx ultra-builder-pro-cli --claude --global
+> ```
+>
+> **What carried over**: the six-stage spine, PHILOSOPHY's four goals and five commandments, the
+> review lenses, TDD and evidence discipline, and the hook contracts. **What changed**: no MCP
+> server, no SQLite authority, no daemon, no command or custom-agent projection — owner-readable
+> files and Git are the whole authority. **What is new**: intent elicitation with reframing,
+> executable acceptance criteria, a Change as the unit of work, and bounded delegation to other
+> CLIs. See [the CLI's DECISIONS](https://github.com/rocky2431/ultra-builder-pro-cli/blob/main/docs/DECISIONS.md).
+>
+> Everything below documents v7.2 as it stood at freeze, and is kept as the historical record the
+> successor's design notes cite. It is no longer maintained.
+
 <div align="center">
 
 # Ultra Builder Pro
 
 **English** · [简体中文](README.zh-CN.md)
 
-**A production-grade engineering harness for Claude Code.**
+**A production-grade engineering harness for Claude Code.** *(archived)*
 
 **Six-command workflow · Sensor-driven hooks · Multi-agent review · Layered cross-session memory · Live project KB · Three-way AI verification.**
 

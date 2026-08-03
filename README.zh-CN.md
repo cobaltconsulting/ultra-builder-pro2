@@ -1,10 +1,29 @@
+> # ⚠️ 已归档 — 后继项目是 [ultra-builder-pro-cli](https://github.com/rocky2431/ultra-builder-pro-cli)
+>
+> 本仓库已**冻结并转为只读**。开发在
+> **[ultra-builder-pro-cli](https://github.com/rocky2431/ultra-builder-pro-cli)** 继续——同一套工作流
+> 覆盖五个宿主（Claude Code、Codex、OpenCode、Kimi Code、Grok Build），以可安装的包分发，
+> 不再是 clone 进 `~/.claude`。
+>
+> ```bash
+> npx ultra-builder-pro-cli --claude --global
+> ```
+>
+> **延续的**：六阶段主线、PHILOSOPHY 的 4 目标与 5 戒律、review 的多视角、TDD 与证据纪律、hook 契约。
+> **变了的**：没有 MCP server、没有 SQLite 权威、没有 daemon、没有 command 与 custom-agent 投影——
+> owner 可读的文件加 Git 就是全部权威。
+> **新增的**：带重构性提问的意图澄清、可执行的验收标准、以 Change 为工作单元、以及对其它 CLI 的受限委派。
+> 详见 [CLI 的 DECISIONS](https://github.com/rocky2431/ultra-builder-pro-cli/blob/main/docs/DECISIONS.md)。
+>
+> 以下全部内容记录的是冻结时的 v7.2 状态，作为后继项目设计文档所引用的历史依据保留，不再维护。
+
 <div align="center">
 
 # Ultra Builder Pro
 
 [English](README.md) · **简体中文**
 
-**为 Claude Code 打造的 production-grade 工程化 harness。**
+**为 Claude Code 打造的 production-grade 工程化 harness。** *(已归档)*
 
 **6 命令工作流 · sensor-driven 钩子链 · 多 agent 平行评审 · 分层跨会话记忆 · 活的项目知识库 · 三方 AI 交叉验证。**
 

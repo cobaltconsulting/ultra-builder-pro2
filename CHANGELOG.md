@@ -6,6 +6,18 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) loos
 
 ---
 
+## 2026-08-03 — Archived
+
+仓库冻结，后继项目为 [`ultra-builder-pro-cli`](https://github.com/rocky2431/ultra-builder-pro-cli) v0.26。
+
+**Why**: 跨 CLI 派发任务需要多宿主支持，而本仓是 clone 进 `~/.claude` 的 Claude-only harness，结构上承载不了 delegate。后继项目已把同一套工作流做成覆盖五宿主的可安装包，并且把本仓的六阶段主线、PHILOSOPHY、review 视角、TDD 与证据纪律都带了过去。继续维护两套等于同时兼容两个系统，这正是本仓自己反对的事。
+
+**What**: 双语 README 顶部加归档横幅并指向后继项目；`CLAUDE.md` 声明冻结状态。代码与文档正文全部原样保留——后继项目的设计文档引用本仓作为 v7 的问题来源与证据出处。
+
+**Files**: `README.md`, `README.zh-CN.md`, `CLAUDE.md`, `CHANGELOG.md`
+
+---
+
 ## v7.2.0 (2026-06-02) — Memory Consolidation
 
 记忆系统三层归位. Tore out the self-built cross-session memory stack and collapsed memory into three layers with non-overlapping jobs. Net **−~3800 lines**.

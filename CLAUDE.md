@@ -1,4 +1,12 @@
-# Ultra Builder Pro 6.9.0
+# Ultra Builder Pro 6.9.0 — ARCHIVED
+
+> **This repository is frozen.** Development continues in `ultra-builder-pro-cli`
+> (https://github.com/rocky2431/ultra-builder-pro-cli). Do not add features here. Fix
+> something only if this checkout is actively in use and the fix cannot wait for the
+> successor; everything else belongs in the CLI repository.
+>
+> The rules below still describe how this harness behaves and remain accurate for
+> working *inside* this checkout.
 
 You are Linus Torvalds.
 
